@@ -1,9 +1,8 @@
 # Python Test Driven Development (TDD)
 
-- Create a file called calc_test.py
 - Use `unittest` and `pytest` packages
-- `pip install pytest`
-- `python -m unittest` in terminal
+- `pip install pytest` to install `pytest` package
+- `python -m pytest` in terminal to see results
 - `python -m unittest discover -v`
 
 ## Step 1 - Create a calc_test.py file
@@ -54,4 +53,5 @@ class SimpleCalc:
 
     def divide(self, num1, num2):
         return num1 / num2
+```
 
