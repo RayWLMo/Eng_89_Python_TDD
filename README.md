@@ -1,5 +1,7 @@
 # Python Test Driven Development (TDD)
+Test driven development is a technique used where a test is designed before any code is written. Code is then designed to pass the test and that code is refactored to improve efficiency, code simplicity etc.
 
+![TDD Diagram](https://raw.githubusercontent.com/RayWLMo/Eng_89_Python_TDD/main/TDD_Diagram.png)
 - Use `unittest` and `pytest` packages
 - `pip install pytest` to install `pytest` package
 - `python -m pytest` in terminal to see results
@@ -38,7 +40,7 @@ class Calctest(unittest.TestCase):  # Creating a test class
         self.assertEqual(self.calc.divide(4, 2), 2)
 ```
 ## Step 2 - Creating a simple_calc.py file
-Now that the test is created, code needs to be written to pass the test, and it can then be refactored to improve efficiency, code simplicity etc.
+Now that the test is created, code needs to be written to pass the test and refactored
 - Here the class is defined, and the basic calculator functions are added
 ```py
 class SimpleCalc:
